@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AXA en France - Assurance Auto, Habitation, Santé, Épargne et Prévoyance. Obtenez votre devis en ligne.">
+    <title>AXA en France | Assurance, Épargne & Prévoyance</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ========== TOP BAR ========== -->
+    <div class="top-bar">
+        <div class="container">
+            <ul class="top-bar__links">
+                <li><a href="#">Trouver une agence</a></li>
+                <li><a href="#">Déclarer un sinistre</a></li>
+                <li><a href="#">Aide & Contact</a></li>
+            </ul>
+            <div class="top-bar__actions">
+                <a href="#" class="top-bar__login">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    Mon espace client
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== HEADER / NAV ========== -->
+    <header class="header" id="header">
+        <div class="container header__inner">
+            <a href="index.html" class="header__logo">
+                <svg class="logo-svg" viewBox="0 0 180 60" width="120" height="40">
+                    <rect x="0" y="0" width="180" height="60" rx="8" fill="#00008f"/>
+                    <text x="90" y="42" text-anchor="middle" fill="#fff" font-family="Source Sans 3, sans-serif" font-size="36" font-weight="900">AXA</text>
+                </svg>
+            </a>
+
+            <nav class="nav" id="mainNav">
+                <ul class="nav__list">
+                    <li class="nav__item nav__item--has-dropdown">
+                        <a href="#" class="nav__link nav__link--active">Particuliers</a>
+                        <div class="mega-menu">
+                            <div class="mega-menu__inner container">
+                                <div class="mega-menu__col">
+                                    <h3 class="mega-menu__title">Assurances</h3>
+                                    <ul>
+                                        <li><a href="pages/auto.html">Assurance Auto</a></li>
+                                        <li><a href="pages/habitation.html">Assurance Habitation</a></li>
+                                        <li><a href="pages/sante.html">Assurance Santé</a></li>
+                                        <li><a href="#">Assurance Deux-roues</a></li>
+                                        <li><a href="#">Assurance Voyage</a></li>
+                                        <li><a href="#">Assurance Animaux</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-menu__col">
+                                    <h3 class="mega-menu__title">Épargne & Patrimoine</h3>
+                                    <ul>
+                                        <li><a href="pages/epargne.html">Assurance Vie</a></li>
+                                        <li><a href="pages/epargne.html">Plan Épargne Retraite</a></li>
+                                        <li><a href="#">Placements financiers</a></li>
+                                        <li><a href="#">Gestion de patrimoine</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-menu__col">
+                                    <h3 class="mega-menu__title">Prévoyance</h3>
+                                    <ul>
+                                        <li><a href="pages/prevoyance.html">Assurance Décès</a></li>
+                                        <li><a href="pages/prevoyance.html">Assurance Emprunteur</a></li>
+                                        <li><a href="#">Garantie Accidents de la Vie</a></li>
+                                        <li><a href="#">Protection Juridique</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-menu__col mega-menu__col--highlight">
+                                    <div class="mega-menu__promo">
+                                        <span class="mega-menu__badge">Offre du moment</span>
+                                        <h4>2 mois offerts</h4>
+                                        <p>Sur votre assurance auto avec le code BIENVENUE</p>
+                                        <a href="#" class="btn btn--small">En profiter</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__item nav__item--has-dropdown">
+                        <a href="#" class="nav__link">Professionnels</a>
+                        <div class="mega-menu">
+                            <div class="mega-menu__inner container">
+                                <div class="mega-menu__col">
+                                    <h3 class="mega-menu__title">Protéger votre activité</h3>
+                                    <ul>
+                                        <li><a href="#">RC Professionnelle</a></li>
+                                        <li><a href="#">Multirisque Pro</a></li>
+                                        <li><a href="#">Flotte automobile</a></li>
+                                        <li><a href="#">Cyber-risques</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-menu__col">
+                                    <h3 class="mega-menu__title">Protéger vos salariés</h3>
+                                    <ul>
+                                        <li><a href="#">Complémentaire santé</a></li>
+                                        <li><a href="#">Prévoyance collective</a></li>
+                                        <li><a href="#">Épargne salariale</a></li>
+                                        <li><a href="#">Retraite entreprise</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__item nav__item--has-dropdown">
+                        <a href="#" class="nav__link">Entreprises</a>
+                        <div class="mega-menu">
+                            <div class="mega-menu__inner container">
+                                <div class="mega-menu__col">
+                                    <h3 class="mega-menu__title">Solutions entreprises</h3>
+                                    <ul>
+                                        <li><a href="#">Risques d'entreprise</a></li>
+                                        <li><a href="#">Protection sociale</a></li>
+                                        <li><a href="#">International</a></li>
+                                        <li><a href="#">Conseil & Accompagnement</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header__actions">
+                <button class="header__search" aria-label="Rechercher">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                </button>
+                <a href="#devis" class="btn btn--primary header__cta">Obtenir un devis</a>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero">
+        <div class="hero__bg"></div>
+        <div class="container hero__inner">
+            <div class="hero__content">
+                <span class="hero__tag">N&deg;1 de l'assurance en France</span>
+                <h1 class="hero__title">Protégeons ce qui compte <span class="hero__title--accent">vraiment</span></h1>
+                <p class="hero__subtitle">Découvrez nos solutions d'assurance, d'épargne et de prévoyance adaptées à chaque moment de votre vie.</p>
+                <div class="hero__actions">
+                    <a href="#devis" class="btn btn--primary btn--large">Obtenir un devis gratuit</a>
+                    <a href="#produits" class="btn btn--outline btn--large">Découvrir nos offres</a>
+                </div>
+                <div class="hero__trust">
+                    <div class="hero__trust-item">
+                        <strong>8M+</strong>
+                        <span>clients en France</span>
+                    </div>
+                    <div class="hero__trust-item">
+                        <strong>3 500</strong>
+                        <span>agences</span>
+                    </div>
+                    <div class="hero__trust-item">
+                        <strong>98%</strong>
+                        <span>de sinistres réglés</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__visual">
+                <div class="hero__card hero__card--1">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#00008f" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    <span>Protection complète</span>
+                </div>
+                <div class="hero__card hero__card--2">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#00008f" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    <span>Devis en 3 min</span>
+                </div>
+                <div class="hero__card hero__card--3">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#00008f" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    <span>Conseiller dédié</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SEARCH / DEVIS RAPIDE ========== -->
+    <section class="quick-quote" id="devis">
+        <div class="container">
+            <div class="quick-quote__box">
+                <h2 class="quick-quote__title">Obtenez votre devis en quelques clics</h2>
+                <div class="quick-quote__tabs">
+                    <button class="quick-quote__tab quick-quote__tab--active" data-tab="auto">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="6" width="22" height="12" rx="3"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>
+                        Auto
+                    </button>
+                    <button class="quick-quote__tab" data-tab="habitation">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                        Habitation
+                    </button>
+                    <button class="quick-quote__tab" data-tab="sante">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                        Santé
+                    </button>
+                    <button class="quick-quote__tab" data-tab="epargne">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                        Épargne
+                    </button>
+                </div>
+                <form class="quick-quote__form" id="quoteForm">
+                    <div class="quick-quote__fields" id="quoteFields">
+                        <!-- Auto fields (default) -->
+                        <div class="quick-quote__field">
+                            <label for="vehicleType">Type de véhicule</label>
+                            <select id="vehicleType">
+                                <option>Voiture</option>
+                                <option>Moto / Scooter</option>
+                                <option>Utilitaire</option>
+                            </select>
+                        </div>
+                        <div class="quick-quote__field">
+                            <label for="birthDate">Date de naissance</label>
+                            <input type="date" id="birthDate">
+                        </div>
+                        <div class="quick-quote__field">
+                            <label for="postalCode">Code postal</label>
+                            <input type="text" id="postalCode" placeholder="ex: 75001" maxlength="5">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--large quick-quote__submit">
+                        Calculer mon tarif
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PRODUITS ========== -->
+    <section class="products" id="produits">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos solutions d'assurance</h2>
+                <p class="section-subtitle">Des offres adaptées à chaque besoin, pour vous protéger au quotidien.</p>
+            </div>
+            <div class="products__grid">
+                <a href="pages/auto.html" class="product-card">
+                    <div class="product-card__icon product-card__icon--blue">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17m-2 0a2 2 0 1 0 4 0 2 2 0 1 0-4 0"/><path d="M17 17m-2 0a2 2 0 1 0 4 0 2 2 0 1 0-4 0"/><path d="M5 17H3v-6l2-5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0H9"/></svg>
+                    </div>
+                    <h3 class="product-card__title">Assurance Auto</h3>
+                    <p class="product-card__desc">Tous risques, tiers ou intermédiaire. Trouvez la formule qui vous correspond.</p>
+                    <span class="product-card__price">À partir de <strong>11&euro;/mois</strong></span>
+                    <span class="product-card__cta">Découvrir &rarr;</span>
+                </a>
+
+                <a href="pages/habitation.html" class="product-card">
+                    <div class="product-card__icon product-card__icon--teal">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    </div>
+                    <h3 class="product-card__title">Assurance Habitation</h3>
+                    <p class="product-card__desc">Protégez votre logement et vos biens avec nos garanties sur-mesure.</p>
+                    <span class="product-card__price">À partir de <strong>6&euro;/mois</strong></span>
+                    <span class="product-card__cta">Découvrir &rarr;</span>
+                </a>
+
+                <a href="pages/sante.html" class="product-card">
+                    <div class="product-card__icon product-card__icon--green">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                    </div>
+                    <h3 class="product-card__title">Assurance Santé</h3>
+                    <p class="product-card__desc">Complémentaire santé individuelle ou familiale, avec le réseau de soins AXA.</p>
+                    <span class="product-card__price">À partir de <strong>29&euro;/mois</strong></span>
+                    <span class="product-card__cta">Découvrir &rarr;</span>
+                </a>
+
+                <a href="pages/epargne.html" class="product-card">
+                    <div class="product-card__icon product-card__icon--gold">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                    </div>
+                    <h3 class="product-card__title">Épargne & Retraite</h3>
+                    <p class="product-card__desc">Préparez votre avenir avec nos solutions d'assurance vie et PER.</p>
+                    <span class="product-card__price">Dès <strong>50&euro;/mois</strong></span>
+                    <span class="product-card__cta">Découvrir &rarr;</span>
+                </a>
+
+                <a href="pages/prevoyance.html" class="product-card">
+                    <div class="product-card__icon product-card__icon--red">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3 class="product-card__title">Prévoyance</h3>
+                    <p class="product-card__desc">Assurance décès, emprunteur, accidents de la vie. Protégez vos proches.</p>
+                    <span class="product-card__price">À partir de <strong>8&euro;/mois</strong></span>
+                    <span class="product-card__cta">Découvrir &rarr;</span>
+                </a>
+
+                <a href="#" class="product-card product-card--dark">
+                    <div class="product-card__icon product-card__icon--white">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                    </div>
+                    <h3 class="product-card__title">Pro & Entreprises</h3>
+                    <p class="product-card__desc">Solutions complètes pour les professionnels et les entreprises.</p>
+                    <span class="product-card__cta" style="color:#fff">Nous contacter &rarr;</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== AVANTAGES ========== -->
+    <section class="advantages">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pourquoi choisir AXA ?</h2>
+                <p class="section-subtitle">Leader mondial de l'assurance, AXA vous accompagne avec expertise et proximité.</p>
+            </div>
+            <div class="advantages__grid">
+                <div class="advantage-card">
+                    <div class="advantage-card__number">01</div>
+                    <h3 class="advantage-card__title">Expertise reconnue</h3>
+                    <p class="advantage-card__desc">Plus de 30 ans d'expérience en France. Nos experts vous conseillent pour trouver les meilleures solutions.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-card__number">02</div>
+                    <h3 class="advantage-card__title">Proximité garantie</h3>
+                    <p class="advantage-card__desc">3 500 agences en France et un réseau de conseillers disponibles par téléphone, en ligne ou en agence.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-card__number">03</div>
+                    <h3 class="advantage-card__title">Digital & innovant</h3>
+                    <p class="advantage-card__desc">Gérez vos contrats en ligne, déclarez un sinistre en 5 minutes et suivez vos remboursements en temps réel.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-card__number">04</div>
+                    <h3 class="advantage-card__title">Engagement durable</h3>
+                    <p class="advantage-card__desc">AXA s'engage pour le climat, l'inclusion et l'accompagnement de ses clients dans la transition écologique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TÉMOIGNAGES ========== -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ce que disent nos clients</h2>
+                <p class="section-subtitle">Plus de 8 millions de Français nous font confiance.</p>
+            </div>
+            <div class="testimonials__slider" id="testimonialSlider">
+                <div class="testimonial-card">
+                    <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-card__text">&laquo; Mon sinistre auto a été réglé en moins de 48h. Le conseiller était disponible et à l'écoute. Je recommande AXA sans hésitation. &raquo;</p>
+                    <div class="testimonial-card__author">
+                        <div class="testimonial-card__avatar">ML</div>
+                        <div>
+                            <strong>Marie L.</strong>
+                            <span>Cliente Auto &ndash; Paris</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-card__text">&laquo; Grâce à l'application AXA, je suis mes remboursements santé en temps réel. Très pratique et intuitif. &raquo;</p>
+                    <div class="testimonial-card__author">
+                        <div class="testimonial-card__avatar">TD</div>
+                        <div>
+                            <strong>Thomas D.</strong>
+                            <span>Client Santé &ndash; Lyon</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                    <p class="testimonial-card__text">&laquo; Mon conseiller AXA m'a aidé à mettre en place un PER adapté à ma situation. Un vrai accompagnement personnalisé. &raquo;</p>
+                    <div class="testimonial-card__author">
+                        <div class="testimonial-card__avatar">SB</div>
+                        <div>
+                            <strong>Sophie B.</strong>
+                            <span>Cliente Épargne &ndash; Bordeaux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== BANDEAU CTA ========== -->
+    <section class="cta-banner">
+        <div class="container cta-banner__inner">
+            <div class="cta-banner__content">
+                <h2>Besoin d'un conseil personnalisé ?</h2>
+                <p>Nos conseillers sont disponibles du lundi au vendredi de 8h30 à 20h et le samedi de 9h à 17h.</p>
+            </div>
+            <div class="cta-banner__actions">
+                <a href="tel:+33970808080" class="btn btn--white btn--large">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    09 70 80 80 80
+                </a>
+                <a href="#" class="btn btn--outline-white btn--large">Prendre rendez-vous</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ACTUALITÉS ========== -->
+    <section class="news">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Actualités & Conseils</h2>
+                <p class="section-subtitle">Restez informé avec nos derniers articles.</p>
+            </div>
+            <div class="news__grid">
+                <article class="news-card">
+                    <div class="news-card__image" style="background: linear-gradient(135deg, #00008f 0%, #00adc6 100%);">
+                        <span class="news-card__category">Auto</span>
+                    </div>
+                    <div class="news-card__body">
+                        <time class="news-card__date">28 mars 2026</time>
+                        <h3 class="news-card__title">Assurance auto : les 5 réflexes en cas d'accident</h3>
+                        <p class="news-card__excerpt">Découvrez les gestes essentiels à adopter après un accident de la route pour protéger vos droits.</p>
+                        <a href="#" class="news-card__link">Lire l'article &rarr;</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-card__image" style="background: linear-gradient(135deg, #2a9d8f 0%, #00adc6 100%);">
+                        <span class="news-card__category">Épargne</span>
+                    </div>
+                    <div class="news-card__body">
+                        <time class="news-card__date">20 mars 2026</time>
+                        <h3 class="news-card__title">PER : tout comprendre sur le Plan Épargne Retraite en 2026</h3>
+                        <p class="news-card__excerpt">Le PER est devenu l'outil incontournable pour préparer sa retraite. Voici ce qu'il faut savoir.</p>
+                        <a href="#" class="news-card__link">Lire l'article &rarr;</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-card__image" style="background: linear-gradient(135deg, #e76f51 0%, #f4a261 100%);">
+                        <span class="news-card__category">Habitation</span>
+                    </div>
+                    <div class="news-card__body">
+                        <time class="news-card__date">12 mars 2026</time>
+                        <h3 class="news-card__title">Prévenir les cambriolages : nos conseils avant l'été</h3>
+                        <p class="news-card__excerpt">Sécurisez votre domicile avant les vacances avec nos recommandations pratiques.</p>
+                        <a href="#" class="news-card__link">Lire l'article &rarr;</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__col">
+                    <svg class="footer__logo" viewBox="0 0 180 60" width="100" height="34">
+                        <rect x="0" y="0" width="180" height="60" rx="8" fill="#fff"/>
+                        <text x="90" y="42" text-anchor="middle" fill="#00008f" font-family="Source Sans 3, sans-serif" font-size="36" font-weight="900">AXA</text>
+                    </svg>
+                    <p class="footer__tagline">Protéger ce qui compte, c'est notre métier depuis plus de 30 ans.</p>
+                    <div class="footer__social">
+                        <a href="#" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__col">
+                    <h4>Assurances</h4>
+                    <ul>
+                        <li><a href="pages/auto.html">Assurance Auto</a></li>
+                        <li><a href="pages/habitation.html">Assurance Habitation</a></li>
+                        <li><a href="pages/sante.html">Assurance Santé</a></li>
+                        <li><a href="#">Assurance Deux-roues</a></li>
+                        <li><a href="#">Assurance Voyage</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Épargne & Prévoyance</h4>
+                    <ul>
+                        <li><a href="pages/epargne.html">Assurance Vie</a></li>
+                        <li><a href="pages/epargne.html">Plan Épargne Retraite</a></li>
+                        <li><a href="pages/prevoyance.html">Assurance Décès</a></li>
+                        <li><a href="pages/prevoyance.html">Assurance Emprunteur</a></li>
+                        <li><a href="#">Protection Juridique</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>AXA & Vous</h4>
+                    <ul>
+                        <li><a href="#">Trouver une agence</a></li>
+                        <li><a href="#">Aide & Contact</a></li>
+                        <li><a href="#">Déclarer un sinistre</a></li>
+                        <li><a href="#">Espace client</a></li>
+                        <li><a href="#">Recrutement</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Informations</h4>
+                    <ul>
+                        <li><a href="#">Qui sommes-nous ?</a></li>
+                        <li><a href="#">Engagements RSE</a></li>
+                        <li><a href="#">Espace presse</a></li>
+                        <li><a href="#">AXA dans le monde</a></li>
+                        <li><a href="#">Données personnelles</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 AXA en France. Tous droits réservés.</p>
+                <ul class="footer__legal">
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">CGU</a></li>
+                    <li><a href="#">Politique de confidentialité</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">Accessibilité</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
